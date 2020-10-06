@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="154.0" layoutX="634.0" layoutY="20.0">
+         <image>
+            <Image url="@Icons/1_cash_register_shopping_cashboxreceiptpaymentmachine-256.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="109.0" layoutX="580.0" layoutY="251.0">
+         <image>
+            <Image url="@Icons/Cash-256.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="728.0" layoutY="262.0" mnemonicParsing="false" text="2 zł" />
+      <Button layoutX="728.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#clicked2zl" text="5 zł" />
+      <Button layoutX="728.0" layoutY="302.0" mnemonicParsing="false" text="50 gr" />
+      <Button layoutX="728.0" layoutY="338.0" mnemonicParsing="false" text="10 gr" />
+      <Text layoutX="580.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wpłata: " wrappingWidth="83.13000106811523">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="66.0" fitWidth="200.0" layoutX="44.0" layoutY="62.0">
+         <image>
+            <Image url="@Icons/1200px-Coca-Cola_logo.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="200.0" layoutX="36.0" layoutY="173.0">
+         <image>
+            <Image url="@Icons/1024px-Pepsi_logo_2008.svg.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="676.0" fx:id="txtCash" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
